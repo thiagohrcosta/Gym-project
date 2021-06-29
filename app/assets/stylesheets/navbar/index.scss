@@ -1,7 +1,7 @@
 .navbar-custom{
-  border-bottom: 1px solid var(--light-blue);
+  border-bottom: 1px solid var(--light-red);
   height: 70px;
-  background-color: var(--main-blue);
+  background-color: var(--light-black);
 
   a{
     color: var(--white);
@@ -25,12 +25,12 @@
 
 
   .nav-item:hover{
-    background-color: var(--light-blue);
+    background-color: var(--light-red);
 
   }
 
   .nav-login{
-    background-color: var(--light-blue);
+    background-color: var(--light-red);
     border-radius: 5px;
   }
 

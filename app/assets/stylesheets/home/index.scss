@@ -1,7 +1,9 @@
 .card-headline{
-  background-color: var(--light-blue);
+  background-color: var(--light-black);
   max-height: 245px;
   width: 100%;
+  color: var(--white);
+
 }
 
 .text-header{
@@ -12,7 +14,7 @@
   height: 180px;
   font-size: 14px;
   padding: 20px;
-  background-color: var(--main-blue);
+  background-color: var(--light-red);
   color: var(--white);
 }
 
@@ -23,4 +25,39 @@
 .go-to{
   float: right;
   padding-bottom: 20px;
+}
+
+.address{
+  background-color: var(--light-black);
+  height: 350px;
+}
+
+.address-content{
+  padding: 30px 0;
+  color: var(--white);
+}
+
+.address-map{
+  padding: 30px 0;
+}
+
+.img-address{
+  width: 100%;
+}
+
+.btn-detail{
+  background-color: var(--light-red);
+  color: var(--white);
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.btn-detail:hover{
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--dark-red);
+}
+
+.page-footer{
+  background-color: var(--light-grey);
 }
