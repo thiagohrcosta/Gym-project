@@ -1,0 +1,37 @@
+.navbar-custom{
+  height: 70px;
+  background-color: var(--main-blue);
+
+  a{
+    color: var(--white);
+  }
+
+  a:hover{
+    color: var(--white);
+    text-decoration: none;
+    opacity: 0.9;
+
+  }
+
+  .li-space{
+    margin: 0 20px;
+  }
+
+  .nav-item{
+    padding: 5px 25px;
+    text-decoration: none;
+  }
+
+
+  .nav-item:hover{
+    background-color: var(--light-blue);
+
+  }
+
+  .nav-login{
+    background-color: var(--light-blue);
+    border-radius: 5px;
+  }
+
+
+}
